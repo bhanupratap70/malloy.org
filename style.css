@@ -1,0 +1,380 @@
+ 
+
+ * {
+    box-sizing: border-box;
+  }
+ 
+ 
+ .navbar{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    background: white;
+    width: 100%;
+    height: 79px;
+ }
+
+#IMglogo{
+    width: 200px;
+ 
+    margin-left: 25px;
+}
+
+#IMglogo{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+ .mar{
+    margin-left: 582px;
+    padding: 27px;
+    background: #cecece00;
+    color: rgb(10, 10, 10);
+    font-weight: 500;
+ }
+
+ .now{
+    padding: 27px;
+    background: rgb(241, 86, 42);
+    color: white;
+    font-weight: 500;
+    
+}
+ 
+.now:hover{
+background-color: #000000;
+color: white;
+
+}
+
+.take{
+    padding: 27px;
+    background: rgb(248, 158, 56);
+    color: white;
+    font-weight: 500;
+}
+
+.take:hover{
+    background-color: #000000;
+    color: white;
+}
+.menu{
+    padding: 27px;
+    background: #000000;
+    color: white;
+    font-weight: 500;
+    
+}
+
+.menu:hover{
+    background-color:rgb(241, 86, 42);
+    color: rgb(255, 255, 255);
+}
+ 
+ i{
+    margin-right: 20px;
+ }
+ 
+ span{
+ padding: 31px 26px 31px 26px;
+ }
+
+ .wild{
+
+    font-size: 100px;
+    padding-left: 125px;
+    color: rgb(241, 86, 42);
+
+ }
+
+ #hr{
+    border: 8px solid rgb(241, 86, 42);
+    width: 200px;
+ }
+
+ .btn{
+    border: 1px solid black;
+    border-radius: 0px;
+    padding-left: 160px;
+    padding-right: 140px;
+    padding-top: 20px;
+    margin-left: 155px;
+    /* margin-top: -60px; */
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 500;
+    z-index: 1;
+    margin-bottom: -34px;
+}
+ 
+.btn:hover{
+    background-color: rgb(241, 86, 42);
+    color: white;
+}
+
+ .black{
+    color: white;
+    background-color: #000000;
+    padding: 71px;
+    
+ }
+
+ .or{
+    border: 1px solid white;
+    background-color: #000000;
+    color: white;
+    padding: 7px;
+    margin-top: 10px;
+    transition: all ease-in-out 0.5s;
+}
+
+.or:hover{
+    background-color: white;
+    color:#000000;
+    transition: all ease-in-out 0.5s;
+
+    
+}
+
+.blue{
+    background-color:#3483bae6;
+    color: white;
+    padding: 71px;
+}
+
+.b{
+    background-color: #3483bae6;
+    color: white;
+    border: 1px solid white;
+    padding: 7px;
+    margin-top: 10px;
+    transition: all ease-in-out 0.5s;}
+
+.b:hover{
+
+    background-color: white;
+    color: #000000;
+    transition: all ease-in-out 0.5s;
+}
+.oran{
+    background-color: rgb(241, 86, 42);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+spam{
+    display: flex;
+}
+
+.cls1{
+
+    background-color: #F89825;
+    padding: 40px;
+}
+
+#on{
+
+  border: 1px solid white; 
+  background-color: #00000000; 
+  color: white;
+  padding: 7px;
+  margin-top: 10px;
+  transition: all ease-in-out 0.5s;
+}
+ 
+#on:hover{
+
+    background-color: white;
+    color: black;
+}
+
+.cls2{
+    background-color: #000000;
+    padding: 40px;
+}
+
+#ear{
+
+    font-size: 20px;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.col{
+    margin-left: 10px;
+}
+
+.More{
+  
+    border: 1px solid rgb(122, 122, 122);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    margin-top: 10px;
+    transition: all ease-in-out 0.5s;
+    margin-left: 341px;
+    margin-top: 40px;
+
+}
+.More:hover{
+    background-color: #000000;
+    color: white;
+}
+ 
+ .ty{
+    margin-bottom: 20px;
+    border-top: 0.1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    height: 50px;
+    width: 300px;
+ 
+}
+
+.sub{
+    border: 1px solid rgb(0, 0, 0); 
+    background-color: #000000; 
+    color: rgb(255, 255, 255);
+   padding: 7px;
+    margin-top: 10px;
+    transition: all ease-in-out 0.5s;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ 
+.sub:hover{
+    background-color: rgb(241, 86, 42);
+    color: white;
+    
+}
+
+#box1{
+    border: 1px solid rgb(189, 189, 189);
+    padding: 70px;
+  
+}
+
+#box2{
+   background-color: #f1562a;
+    padding: 60px;
+    color: white;
+}
+ 
+#box{
+    padding: 20px;
+
+}
+
+/* @media only screen and (max-width: 768px) { */
+    /* For mobile phones: */
+    /* [class*="col-1 col-2 col-3 col-4"] {
+      width: 100%;
+    }
+  } */
+/* 
+  /* For mobile phones: */
+/* [class*="col-"] {
+    width: 100%;
+  } */ */
+
+ 
+
+
+/* @media only screen and (min-width: 768px) { */
+    /* For desktop: */
+    /* .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+} */
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+ @media screen and (max-width: 390px) {
+    section{
+      width: 50px;
+    }
+ }
+
+ /* login css */
+  
+ .subutton{
+    margin-top: 10px;
+    padding: 10px 120px 10px 129px;
+    background-color: rgb(241, 86, 42);
+    border: none;
+    box-shadow: 5px 4px 13px 0 rgb(46 36 112 / 30%);
+    transition: all ease-in-out 0.5s;
+ }
+
+ .subutton:hover{
+    background-color: #000000;
+    color: white;
+  transition: all ease-in-out 0.5s;
+    
+ }
+ 
+ /*  */
+
+ 
+ /*        body{
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+            h1 {
+                margin: 0;
+                font-size: 32px;
+            }
+            main {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            footer {
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+  */
